@@ -11,13 +11,13 @@ Asp.Net Core 3.1, C#, SwaggerUI,AutoMapper,Entity Framework Core, SQL Server, Vi
 3) Setup the SQL Server connection in 'aspsetting.json' file otherwise by default it will create database locally.
 3) Build the solution.
 4) Open the 'Package Manager Console' from Tools tab in Visual Studio. Run the command 'UPDATE-DATABASE'. This will create database and seed the test data.
-5) Run the solution. Browser will open with 'https://localhost:44397/swagger/index.html'.
+5) Run the solution. Browser will open with 'https://localhost:44399/swagger/index.html'.
 
 <h3>Endpoints: </h3>
 
 <h4>URI: GET /api/Contact/ListAllContacts</h4>
 <h5>Description: Return the list of all the contacts in database table</h5>
-<h5>Sample URL: </h5> 'https://localhost:44397/api/Contact/ListAllContacts' 
+<h5>Sample URL: </h5> 'https://localhost:44399/api/Contact/ListAllContacts' 
 <h4>Input Parameters:</h4> None
 <h4>Response:</h4>
 A collection of Contact Object

@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Contact.Api/bin/Debug/netcoreapp3.1
+/Contact.Api/obj
+/Contact.Tests/bin/Debug/netcoreapp3.1
+/Contact.Tests/obj
+/Contact.Models/bin/Debug/netcoreapp3.1
+/Contact.Models/obj
+/Contact.Data/bin/Debug/netcoreapp3.1
+/Contact.Data/obj

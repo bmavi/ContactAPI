@@ -69,8 +69,7 @@ namespace Contact.Api.Controllers
         }
 
         // UPDATE Contact
-        [HttpPut("UpdateContact/{id}")]
-        [HttpPatch("UpdateContact/{id}")]
+        [HttpPut("UpdateContact/{id}")]        
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<ContactInfoDTO>> UpdateContactAsync([FromRoute] string id, [FromBody] ContactInfo updateContact)

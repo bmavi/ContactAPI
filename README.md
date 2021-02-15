@@ -4,6 +4,13 @@
 <h3>Technologies:</h3>
 Asp.Net Core 3.1, C#, SwaggerUI,AutoMapper,Entity Framework Core, SQL Server, Visual Studio 2019
 
+<img
+src='https://github.com/bmavi/ContactAPI/blob/master/DocImages/Diagram.jpg'
+raw=true
+alt='Architect Diagram'
+style='margin-right: 10px;'
+/>
+
 <h3>Set up</h3>
 
 1) Clone this repository to your local machine.
